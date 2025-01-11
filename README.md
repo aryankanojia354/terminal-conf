@@ -1,7 +1,11 @@
 # My Development Command Reference
 
 This repository is a curated collection of development commands, setup instructions, and configuration snippets that I frequently use. I created it to avoid repeatedly searching for the same commands and to ensure consistency across my development environments.
+
+Linux Terminal
 ![alt text](<Screenshot 2025-01-11 154150.png>)
+
+Powershell
 ![alt text](<Screenshot 2025-01-11 152831.png>)
 ## What's Inside
 
