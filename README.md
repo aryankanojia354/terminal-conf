@@ -1,6 +1,8 @@
 # My Development Command Reference
 
 This repository is a curated collection of development commands, setup instructions, and configuration snippets that I frequently use. I created it to avoid repeatedly searching for the same commands and to ensure consistency across my development environments.
+![alt text](<Screenshot 2025-01-11 154150.png>)
+![alt text](<Screenshot 2025-01-11 154057.png>)
 
 ## What's Inside
 
