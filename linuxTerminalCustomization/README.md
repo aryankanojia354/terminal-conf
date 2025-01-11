@@ -87,5 +87,10 @@ Before starting, ensure you have the following installed:
 
 With these steps, your terminal will be set up with **Powerlevel10k** theme, the **zsh-autosuggestions** and **zsh-syntax-highlighting** plugins, and **NVM** support for managing Node versions.
 
+## If fonts are not coming try 
+```bash
+fc-cache -fv
+```
+
 
 
