@@ -23,6 +23,3 @@ Example: To find instructions on generating an SSH key, navigate to the `ssh` di
 
 If you find any errors or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
 
-## License
-
-[Choose a License, e.g., MIT](LICENSE)
