@@ -3,7 +3,7 @@
 **Step 1**: Add Docker Host Configuration to .zshrc
 Since you're using Zsh, update your `~/.zshrc` instead of `~/.bashrc`:
 ```bash
-echo 'export DOCKER_HOST=unix:///mnt/wsl/shared-docker/docker.sock' >> ~/.zshrc
+echo 'export DOCKER_HOST=unix:///run/docker.sock' >> ~/.zshrc
 ```
 Apply the changes:
 ```bash
