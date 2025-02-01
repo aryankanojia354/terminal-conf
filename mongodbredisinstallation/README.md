@@ -48,3 +48,50 @@ Copy
 Edit
 mongosh
 If it connects, the installation was successful! 🎉
+
+
+How to Fix:
+Check if Redis is Installed
+
+bash
+Copy
+Edit
+redis-server --version
+If Redis is not installed, install it using:
+
+bash
+Copy
+Edit
+sudo apt update
+sudo apt install redis-server
+Start Redis Server
+
+bash
+Copy
+Edit
+sudo systemctl start redis
+Enable Redis to Start on Boot (Optional)
+
+bash
+Copy
+Edit
+sudo systemctl enable redis
+Check Redis Status
+
+bash
+Copy
+Edit
+redis-cli ping
+If Redis is running properly, it should return:
+
+nginx
+Copy
+Edit
+PONG
+Restart Your App After starting Redis, restart your app:
+
+bash
+Copy
+Edit
+npm run dev
+Let me know if you still face issues! 🚀
