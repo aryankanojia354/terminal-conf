@@ -55,16 +55,18 @@ CC = /opt/microchip/xc8/v3.00/bin/xc8-cc
 CHIP = -mcpu=16F84A -traditional
 SRC = input.c
 HEX = main.hex
-WIN_DIR = /mnt/c/Users/aryan/Desktop # Change to your actual Windows directory
+WIN_DIR = /mnt/c/Users/aryan/Desktop/HEX-folder
 
 transfer: $(HEX)
-	cp $(HEX) $(WIN_DIR)  # Transfer HEX file to Windows
+	rm -f "$(WIN_DIR)/$(HEX)"  # Remove existing HEX file if it exists
+	cp $(HEX) $(WIN_DIR)    # Copy HEX file to Windows directory
 
-all: $(HEX)
-$(HEX): $(SRC)
+build: $(HEX)
+    $(HEX): $(SRC)
 	$(CC) $(CHIP) $(SRC) -o $(HEX)
 
 clean:
+	rm -f "$(WIN_DIR)/$(HEX)"  # Also Delete the HEX file in your desktop
 	rm -rf $(HEX) __eeprom.* main.* startup.* *.o *.p1 *.d *.cmf *.elf *.hxl *.sdb *.lst *.rlf *.sym
 ```
 
