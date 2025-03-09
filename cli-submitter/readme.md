@@ -1,4 +1,4 @@
-# Codeforces Submitter Script
+# Codeforces Submitter Script (For Linux)
 
 ## Installation Instructions
 
@@ -8,22 +8,22 @@ Follow these steps to install and configure the Codeforces submitter script.
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-
-### 2. Install the repository
-```sh
-cargo install --git https://github.com/EgorKulikov/submitter
-```
-
-### 3. Update your PATH
+### 2. Update your PATH
 ```sh
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
-
-### 4. Reload the shell
+### 3. Reload the shell
 ```sh
 source ~/.bashrc  # If using Bash
 source ~/.zshrc   # If using Zsh
 ```
+
+
+### 4. Install the repository
+```sh
+cargo install --git https://github.com/EgorKulikov/submitter
+```
+
 
 ## Creating a Bash/Zsh Script for Easy Submission
 
